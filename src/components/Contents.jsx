@@ -52,48 +52,48 @@ export default function Contents() {
           </div>
 
           <div class="grid grid-rows-11 gap-4 py-3">
-            <div class="col-span-2 uppercase mt-5 py-2 px-2 bg-gray-800 text-gray-500 text-sm ...">
+            <div class="flex justify-center col-span-2 uppercase mt-5 py-2 px-2 bg-gray-800 text-gray-500 font-bold text-sm ...">
               main navigation
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
               <img src={Dashboard} alt="" className="flex mr-2 h-8 w-8" />{" "}
-              Dashboard
+              <p className="">Dashboard</p> 
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Widgets} alt="" className="flex mr-2 h-8 w-8" />
-              Widgets
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Widgets} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Widgets</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Charts} alt="" className="flex mr-2 h-8 w-8" />
-              Charts
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Charts} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Charts</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Ui} alt="" className="flex mr-2 h-8 w-8" />
-              UI Elements
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Ui} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">UI Elements</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Forms} alt="" className="flex mr-2 h-8 w-8" />
-              Forms
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Forms} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Forms</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Tables} alt="" className="flex mr-2 h-8 w-8" />
-              Tables
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Tables} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Tables</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Calendar} alt="" className="flex mr-2 h-8 w-8" />
-              Calendar
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Calendar} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Calendar</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Mailbox} alt="" className="flex mr-2 h-8 w-8" />
-              Mailbox
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Mailbox} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Mailbox</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Examples} alt="" className="flex mr-2 h-8 w-8" />
-              Examples
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Examples} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Examples</p>
             </div>
-            <div class="col-span-2 mx-2 flex items-center ...">
-              <img src={Multilevel} alt="" className="flex mr-2 h-8 w-8" />
-              Multilevel
+            <div class="col-span-2 mx-2 flex items-center cursor-pointer hover:text-gray-300 ...">
+              <img src={Multilevel} alt="" className="flex mr-2 h-8 w-8 transform transition duration-500 hover:scale-110" />
+              <p className="">Multilevel</p>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Contents() {
           </p>
         </div>
 
-        <div className="bg-gray-200 border border-gray-300 flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
+        <div className="bg-gray-100 border border-gray-200 flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
           <div className="bg-sky-500 rounded-lg">
             <img src={Setting} alt="" className="h-full w-full px-2 py-2" />
           </div>
@@ -116,7 +116,7 @@ export default function Contents() {
           </div>
         </div>
 
-        <div className="bg-gray-200 border border-gray-300  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
+        <div className="bg-gray-100 border border-gray-200  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
           <div className="bg-red-500 rounded-lg">
             <img src={Google} alt="" className="h-full w-32 px-2 py-2" />
           </div>
@@ -126,7 +126,7 @@ export default function Contents() {
           </div>
         </div>
 
-        <div className="bg-gray-200 border border-gray-300  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
+        <div className="bg-gray-100 border border-gray-200  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
           <div className="bg-green-500 rounded-lg">
             <img src={Shop} alt="" className="h-full w-32 px-2 py-2" />
           </div>
@@ -136,7 +136,7 @@ export default function Contents() {
           </div>
         </div>
 
-        <div className="bg-gray-200 border border-gray-300  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
+        <div className="bg-gray-100 border border-gray-200  flex row-span-2 col-span-2 rounded-lg w-80 h-3/6 shadow-lg ...">
           <div className="bg-orange-500 rounded-lg">
             <img src={Member} alt="" className="h-full w-32 px-2 py-2" />
           </div>

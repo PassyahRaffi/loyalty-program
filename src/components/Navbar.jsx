@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "../assets/photo.jpg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Navbar() {
   //   const [navbarOpen, setOpenNavbar] = React.useState(false);
@@ -11,7 +11,7 @@ export default function Navbar() {
           {/* left */}
           <div className="bg-sky-600 relative flex justify-between lg:justify-center">
             <a
-              className="text-xl font-bold leading-relaxed inline-block px-32 py-2 whitespace-nowrap text-white"
+              className="text-xl font-bold leading-relaxed inline-block px-32 py-2 whitespace-nowrap text-white cursor-pointer hover:text-gray-300"
               href="!#"
             >
               AdminLTE
@@ -22,7 +22,7 @@ export default function Navbar() {
           <div className="flex lg:justify-center px-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10"
+              className="h-10 w-10 cursor-pointer hover:text-gray-300"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -37,12 +37,12 @@ export default function Navbar() {
               <div class="flex border-2 rounded">
                 <input
                   type="text"
-                  class="px-4 py-2 w-80"
+                  className="px-4 py-2 w-80 bg-gray-100"
                   placeholder="Search..."
                 />
                 <button class="flex items-center justify-center px-4 border-l">
                   <svg
-                    class="w-6 h-6 text-gray-600"
+                    className="w-6 h-6 text-black cursor-pointer hover:text-gray-300"
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -56,7 +56,7 @@ export default function Navbar() {
 
           {/* right */}
           <div className="flex gap-20 lg:flex-row list-none lg:ml-auto mr-20">
-            <a href="#" className="flex nav-item items-center">
+            <a href="#" className="flex nav-item items-center cursor-pointer hover:text-gray-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -72,7 +72,7 @@ export default function Navbar() {
                 />
               </svg>
             </a>
-            <a href="#" className="flex nav-item items-center">
+            <a href="#" className="flex nav-item items-center cursor-pointer hover:text-gray-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -88,7 +88,7 @@ export default function Navbar() {
                 />
               </svg>
             </a>
-            <a href="#" className="flex nav-item items-center">
+            <a href="#" className="flex nav-item items-center cursor-pointer hover:text-gray-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -105,14 +105,14 @@ export default function Navbar() {
               </svg>
             </a>
             <a href="#" className="flex nav-item items-center">
-              <p className="mr-2">Welcome, Muhammad Passyah!</p>
+              <p className="mr-2 cursor-pointer hover:text-gray-300">Welcome, Muhammad Passyah!</p>
               <img
                 src={Profile}
                 alt="photo"
-                className="flex h-10 w-10 rounded-full justify-center transform transition duration-100 hover:scale-110"
+                className="flex h-10 w-10 rounded-full justify-center transform transition duration-200 hover:scale-110"
               />
             </a>
-            <a href="#" className="flex nav-item items-center">
+            <a href="#" className="flex nav-item items-center cursor-pointer hover:text-gray-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
